@@ -1,0 +1,254 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, input, textarea, select, button {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol, dl {
+  list-style: none; }
+
+img {
+  vertical-align: middle;
+  border: 0; }
+
+input {
+  outline: none; }
+
+input[type="button"], input[type="submit"], input[type="file"], input[type="text"], input[type="radio"], button {
+  cursor: pointer; }
+
+.cl:after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+  height: 0;
+  visibility: hidden; }
+
+.cl {
+  zoom: 1; }
+
+.head {
+  width: 100%;
+  padding: 30px 0; }
+
+.top {
+  width: 990px;
+  height: 63px;
+  margin: auto; }
+
+.logo {
+  width: 421px;
+  height: 53px; }
+
+.body {
+  width: 990px;
+  margin: auto; }
+
+.body_l {
+  width: 40%;
+  float: left;
+  padding: 24px 8px; }
+
+.body_l a {
+  display: inline-block; }
+
+.body_r {
+  float: left;
+  padding: 10px 0 0 60px; }
+
+.register {
+  position: relative;
+  background: #fafafa;
+  border: 1px solid #eee;
+  box-shadow: 3px 3px #F5F5F5;
+  padding: 20px 50px 30px 0; }
+
+.register li {
+  height: 30px;
+  margin-top: 15px;
+  border: 0; }
+
+.register span {
+  display: inline-block;
+  width: 75px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-size: 14px;
+  color: #666; }
+
+.register input {
+  width: 220px;
+  color: 　 #aaa;
+  padding: 3px 5px;
+  border: 1px solid #ccc;
+  height: 22px;
+  line-height: 22px;
+  cursor: text;
+  display: inline-block; }
+
+.register .code {
+  width: 65px;
+  line-height: 22px; }
+
+.register .code_a {
+  color: #666;
+  font-size: 12px;
+  display: inline-block; }
+
+.register .code_a:hover {
+  text-decoration: underline; }
+
+.register .submit {
+  width: 89px;
+  height: 38px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  background: red;
+  opacity: 0.9;
+  border-radius: 3px;
+  margin-top: 10px; }
+
+.register li:nth-child(4) a {
+  font-size: 12px;
+  color: #888;
+  display: inline-block;
+  line-height: 30px;
+  height: 20px; }
+
+.register li:nth-child(4) a:hover {
+  color: red;
+  text-decoration: underline; }
+
+.register p {
+  display: inline-block;
+  color: #999;
+  font-size: 12px; }
+
+.register p a {
+  display: inline-block;
+  margin-left: 18px;
+  font-size: 12px;
+  color: #f60;
+  text-decoration: underline; }
+
+.register p a:hover {
+  color: red; }
+
+.reg_p {
+  font-size: 12px;
+  color: #999;
+  padding: 10px 0 8px; }
+
+.reg_div {
+  width: 235px;
+  height: 50px;
+  float: left; }
+
+.reg_img {
+  width: 115px;
+  height: 25px;
+  float: left; }
+
+.reg_div .reg_second {
+  position: relative;
+  width: 82px; }
+
+.reg_second:hover .qq {
+  display: block; }
+
+.reg_second:hover .qq_flag {
+  display: block; }
+
+.qq {
+  width: 194px;
+  padding: 6px 10px 10px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border: 1px solid #f5d682;
+  background: #fffce6;
+  display: none; }
+
+.qq_top {
+  font-size: 16px;
+  padding-left: 28px;
+  line-height: 30px;
+  background: url(//imgcache.qq.com/vipstyle/act/caibei_110826_tips/img/bg.png) no-repeat left -34px; }
+
+.qq_p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #333;
+  width: 194px;
+  height: 40px; }
+
+.qq_flag {
+  position: absolute;
+  width: 15px;
+  height: 7px;
+  left: 30px;
+  top: 20px;
+  background: url(//imgcache.qq.com/vipstyle/act/caibei_110826_tips/img/bg.png) left -21px no-repeat;
+  display: none; }
+
+.reg_icon {
+  float: left; }
+
+.foot {
+  width: 100%;
+  margin-top: 15px; }
+
+.foot_ul {
+  width: 980px;
+  margin: auto;
+  border-top: 2px solid #CE3C3B;
+  padding: 20px 0;
+  text-align: center; }
+
+.foot_ul span {
+  display: block;
+  text-align: center;
+  overflow: hidden; }
+
+.foot_ul .first {
+  padding-left: 0;
+  border: none; }
+
+.foot_ul a {
+  display: inline-block;
+  font-size: 12px;
+  color: #777;
+  line-height: 12px;
+  padding: 0 12px;
+  border-left: 1px solid #ccc; }
+
+.foot_ul a:hover {
+  color: #f10;
+  text-decoration: underline; }
+
+.foot p {
+  margin: auto;
+  width: 600px;
+  font-size: 12px;
+  color: #888; }
+
+.foot p strong {
+  font-size: 22px;
+  font-weight: bold;
+  color: red; }
+
+.foot p a {
+  color: #888;
+  margin: 0 10px; }
+
+.foot p a:hover {
+  color: red;
+  text-decoration: underline; }
+
+.login_ccc a:hover {
+  color: #0553a1; }
